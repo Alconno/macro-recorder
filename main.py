@@ -14,11 +14,10 @@ from pynput import keyboard
 
 # -------- Macro paths --------
 MACRO_DIR = "macros"
-MACROS_FILE = "MACRO_VARS.txt"
+MACROS_FILE = "PLAY_MACROS.txt"
 os.makedirs(MACRO_DIR, exist_ok=True)
 
-# Define which macros to cycle through for playback
-MACROS_TO_PLAY = ["macro_002.pkl"]
+# Macro variables
 current_macro_index = 0
 
 # -------- Recorder state --------
